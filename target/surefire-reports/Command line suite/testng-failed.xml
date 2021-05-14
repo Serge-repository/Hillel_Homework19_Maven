@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="SecondClassTest">
+        <methods>
+          <include name="textBeforeMethod"/>
+          <include name="test2CountriesCities"/>
+          <include name="testDivision"/>
+          <include name="textBeforeClass"/>
+          <include name="textAfterMethod"/>
+          <include name="test2NullObject"/>
+          <include name="textAfterSuite"/>
+          <include name="textAfterClass"/>
+          <include name="test2TestWhile"/>
+        </methods>
+      </class> <!-- SecondClassTest -->
+      <class name="FirstClassTest">
+        <methods>
+          <include name="textBeforeMethod"/>
+          <include name="textBeforeClass"/>
+          <include name="test3Message"/>
+          <include name="textAfterMethod"/>
+          <include name="textAfterSuite"/>
+          <include name="testExactInteger"/>
+          <include name="textAfterClass"/>
+        </methods>
+      </class> <!-- FirstClassTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

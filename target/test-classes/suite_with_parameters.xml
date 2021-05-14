@@ -1,0 +1,19 @@
+<suite name="suite_with_parameters">
+    <test name="Test with parameters">
+        <parameter name = "parameter_one" value = "3" />
+        <parameter name = "parameter_two" value = "integer" />
+        <classes>
+            <class name="FirstClassTest"/>
+                <methods>
+                    <include name = "testExactInteger" />
+                </methods>
+        </classes>
+        <parameter name = "parameter_three" value = "2" />
+        <classes>
+            <class name="SecondClassTest"/>
+            <methods>
+                <include name = "testDivision" />
+            </methods>
+        </classes>
+    </test>
+</suite>
